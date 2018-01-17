@@ -68,4 +68,4 @@ Please note that `update_hash` and `overlap?` are defined in other parts of my c
 In `find_items_in_interval`, I iterate through `@rides`, using a hash to keep track of items and quantities existing within the given interval. Then, in `print_items_per_interval`, I iterate through the hash returned by `find_items_in_interval` to build up `str`.
 
 ## Time and Space Complexity 
-I listed the time and space complexity of each method in my solution, so please refer to my code for this. 
+I listed the time and space complexity of each method as notes in my solution, so please refer to my code for this. 
