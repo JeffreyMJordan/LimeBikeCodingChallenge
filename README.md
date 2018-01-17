@@ -64,3 +64,5 @@ To implement `print_items_per_interval`, ItemCounter uses the following process:
 ```
 
 Please note that `update_hash` and `overlap?` are defined in other parts of my code. 
+
+In `find_items_in_interval`, I iterate through `@rides`, using a hash to keep track of items and quantities existing within the given interval. Then in `print_items_per_interval`, I iterate the hash returned by `find_items_in_interval` to build the string that will be written to the terminal. 
